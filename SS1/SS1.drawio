@@ -1,0 +1,436 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.6.1">
+  <diagram name="Page-1" id="d7SwVwQlXWsioAOOShvz">
+    <mxGraphModel dx="2546" dy="1128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-106" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Course" vertex="1">
+          <mxGeometry height="54" width="108" x="210" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-107" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="Have" vertex="1">
+          <mxGeometry height="89" width="89" x="219" y="358" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-108" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Class_Section" vertex="1">
+          <mxGeometry height="54" width="157" x="270" y="521" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-109" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Instructor" vertex="1">
+          <mxGeometry height="54" width="130" x="368" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-110" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="Have" vertex="1">
+          <mxGeometry height="89" width="89" x="389" y="358" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-111" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Student" vertex="1">
+          <mxGeometry height="54" width="116" x="477" y="521" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-112" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="Have" vertex="1">
+          <mxGeometry height="89" width="89" x="397" y="649" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-114" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-106" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.51;entryY=0;rounded=0;" target="2N634zf8p_ipJI-IP2Pz-107" value="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-115" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-107" style="curved=1;startArrow=none;endArrow=block;exitX=0.51;exitY=1;entryX=0.27;entryY=0.01;rounded=0;" target="2N634zf8p_ipJI-IP2Pz-108" value="n">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="264" y="484" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-116" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-109" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="2N634zf8p_ipJI-IP2Pz-110" value="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-117" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-110" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.73;entryY=0.01;rounded=0;" target="2N634zf8p_ipJI-IP2Pz-108" value="n">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="433" y="484" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-118" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-108" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0;entryY=0.07;rounded=0;" target="2N634zf8p_ipJI-IP2Pz-112" value="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="349" y="612" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-119" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-112" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;" target="2N634zf8p_ipJI-IP2Pz-121" value="n">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="442" y="813" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-120" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-111" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=1.01;entryY=0.07;rounded=0;" target="2N634zf8p_ipJI-IP2Pz-112" value="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="535" y="612" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-121" parent="1" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;" value="Enrollment" vertex="1">
+          <mxGeometry height="40" width="100" x="392" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-122" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Customer" vertex="1">
+          <mxGeometry height="54" width="128" x="253.5" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-123" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Order" vertex="1">
+          <mxGeometry height="54" width="101" x="347.5" y="1276" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-124" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Product" vertex="1">
+          <mxGeometry height="54" width="115" x="498.5" y="1276" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-125" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Staff" vertex="1">
+          <mxGeometry height="54" width="94" x="431.5" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-126" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="OrderDetail" vertex="1">
+          <mxGeometry height="54" width="143" x="405.5" y="1587" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-127" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="Đặt" vertex="1">
+          <mxGeometry height="93" width="93" x="271.5" y="1104" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-128" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="Xử lý" vertex="1">
+          <mxGeometry height="104" width="104" x="426.5" y="1098" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-129" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="chứa" vertex="1">
+          <mxGeometry height="109" width="109" x="343.5" y="1404" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-130" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="bao gồm" vertex="1">
+          <mxGeometry height="106" width="106" x="502.5" y="1405" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-131" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-122" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.49;entryY=0;rounded=0;" target="2N634zf8p_ipJI-IP2Pz-127" value="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-132" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-127" style="curved=1;startArrow=none;endArrow=block;exitX=0.49;exitY=0.99;entryX=0.16;entryY=0;rounded=0;" target="2N634zf8p_ipJI-IP2Pz-123" value="n">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="317.5" y="1239" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-133" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-125" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="2N634zf8p_ipJI-IP2Pz-128" value="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-134" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-128" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.84;entryY=0;rounded=0;" target="2N634zf8p_ipJI-IP2Pz-123" value="n">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="478.5" y="1239" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-135" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-123" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="2N634zf8p_ipJI-IP2Pz-129" value="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-136" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-129" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.27;entryY=0;rounded=0;" target="2N634zf8p_ipJI-IP2Pz-126" value="n">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="398.5" y="1550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-137" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-124" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="2N634zf8p_ipJI-IP2Pz-130" value="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-138" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-130" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.73;entryY=0;rounded=0;" target="2N634zf8p_ipJI-IP2Pz-126" value="n">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="555.5" y="1550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-139" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Customer" vertex="1">
+          <mxGeometry height="54" width="128" x="445" y="1710" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-140" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Hotel" vertex="1">
+          <mxGeometry height="54" width="99" x="296" y="1710" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-141" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Room" vertex="1">
+          <mxGeometry height="54" width="99" x="174" y="2028" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-142" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Booking" vertex="1">
+          <mxGeometry height="54" width="116" x="355" y="2028" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-143" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Payment" vertex="1">
+          <mxGeometry height="54" width="122" x="367" y="2364" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-144" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Review" vertex="1">
+          <mxGeometry height="54" width="110" x="535" y="2028" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-145" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="BookingRoom" vertex="1">
+          <mxGeometry height="54" width="155" x="160" y="2364" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-146" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="Đặt" vertex="1">
+          <mxGeometry height="80" width="80" x="373" y="1856" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-147" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="Thuộc" vertex="1">
+          <mxGeometry height="98" width="98" x="174" y="1847" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-148" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="Bao gồm" vertex="1">
+          <mxGeometry height="116" width="116" x="179" y="2165" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-149" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="Thanh toán" vertex="1">
+          <mxGeometry height="135" width="135" x="360" y="2156" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-150" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="Đánh giá" vertex="1">
+          <mxGeometry height="116" width="116" x="533" y="1838" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-151" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-139" style="curved=1;startArrow=none;endArrow=block;exitX=0.18;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="2N634zf8p_ipJI-IP2Pz-146" value="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="413" y="1801" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-152" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-146" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" target="2N634zf8p_ipJI-IP2Pz-142" value="n">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-153" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-140" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.98;entryX=0.5;entryY=0;rounded=0;" target="2N634zf8p_ipJI-IP2Pz-147" value="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="223" y="1801" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-154" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-147" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" target="2N634zf8p_ipJI-IP2Pz-141" value="n">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-155" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-142" style="curved=1;startArrow=none;endArrow=block;exitX=0.16;exitY=0.99;entryX=0.89;entryY=0;rounded=0;" target="2N634zf8p_ipJI-IP2Pz-148" value="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="319" y="2119" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-156" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-141" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.44;entryY=0;rounded=0;" target="2N634zf8p_ipJI-IP2Pz-148" value="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="223" y="2119" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-157" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-148" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" target="2N634zf8p_ipJI-IP2Pz-145" value="n">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-158" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-142" style="curved=1;startArrow=none;endArrow=block;exitX=0.55;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" target="2N634zf8p_ipJI-IP2Pz-149" value="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="427" y="2119" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-159" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-149" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.49;entryY=0.01;rounded=0;" target="2N634zf8p_ipJI-IP2Pz-143" value="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-160" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-139" style="curved=1;startArrow=none;endArrow=block;exitX=0.82;exitY=1;entryX=0.57;entryY=0;rounded=0;" target="2N634zf8p_ipJI-IP2Pz-150" value="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="605" y="1801" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-161" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-140" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.86;entryX=0.07;entryY=0;rounded=0;" target="2N634zf8p_ipJI-IP2Pz-150" value="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="509" y="1801" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-162" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-150" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.51;entryY=-0.01;rounded=0;" target="2N634zf8p_ipJI-IP2Pz-144" value="n">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-163" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="USER&#xa;PK user_id&#xa;full_name&#xa;email&#xa;password&#xa;role (Student / Instructor / Admin)" vertex="1">
+          <mxGeometry height="198" width="260" x="532" y="2490" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-164" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="INSTRUCTOR&#xa;PK instructor_id&#xa;FK instructor_id -&gt; USER.user_id&#xa;degree&#xa;specialization" vertex="1">
+          <mxGeometry height="174" width="260" x="532" y="2786" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-165" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="CATEGORY&#xa;PK category_id&#xa;name" vertex="1">
+          <mxGeometry height="102" width="167" x="315" y="2822" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-166" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="COURSE&#xa;PK course_id&#xa;title&#xa;description&#xa;level&#xa;price&#xa;publish_date&#xa;FK category_id&#xa;FK instructor_id" vertex="1">
+          <mxGeometry height="246" width="174" x="443" y="3058" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-167" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="ENROLLMENT&#xa;PK enrollment_id&#xa;FK user_id&#xa;FK course_id&#xa;enroll_date&#xa;status" vertex="1">
+          <mxGeometry height="174" width="184" x="160" y="3378" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-168" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="LESSON&#xa;PK lesson_id&#xa;title&#xa;content&#xa;duration&#xa;FK course_id" vertex="1">
+          <mxGeometry height="174" width="151" x="591" y="3378" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-169" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="QUIZ&#xa;PK quiz_id&#xa;title&#xa;question_count&#xa;FK lesson_id" vertex="1">
+          <mxGeometry height="150" width="170" x="890" y="3390" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-170" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="RESULT&#xa;PK result_id&#xa;score&#xa;attempt_date&#xa;FK user_id&#xa;FK quiz_id" vertex="1">
+          <mxGeometry height="174" width="159" x="1250" y="3378" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-171" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-163" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.71;entryX=0.29;entryY=0;rounded=0;" target="2N634zf8p_ipJI-IP2Pz-167" value="1 User (Student) -&gt; n Enrollment">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="197" y="2737" />
+              <mxPoint x="197" y="3341" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-172" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-166" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.82;entryX=0.88;entryY=0;rounded=0;" target="2N634zf8p_ipJI-IP2Pz-167" value="1 Course -&gt; n Enrollment">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="352" y="3341" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-173" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-163" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="2N634zf8p_ipJI-IP2Pz-164" value="1 User -&gt; 1 Instructor profile">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-174" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-165" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.04;rounded=0;" target="2N634zf8p_ipJI-IP2Pz-166" value="1 Category -&gt; n Course">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="398" y="3009" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-175" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-164" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.04;rounded=0;" target="2N634zf8p_ipJI-IP2Pz-166" value="1 Instructor -&gt; n Course">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="662" y="3009" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-176" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-166" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.92;entryX=0.5;entryY=0;rounded=0;" target="2N634zf8p_ipJI-IP2Pz-168" value="1 Course -&gt; n Lesson">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="666" y="3341" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-177" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-168" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="2N634zf8p_ipJI-IP2Pz-169" value="1 Lesson -&gt; n Quiz">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-178" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-163" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.75;rounded=0;edgeStyle=orthogonalEdgeStyle;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="2N634zf8p_ipJI-IP2Pz-170" value="1 User -&gt; n Result">
+          <mxGeometry relative="1" x="-0.2365" y="-127" as="geometry">
+            <mxPoint x="1" as="offset" />
+            <mxPoint x="889.9999999999993" y="2740" as="sourcePoint" />
+            <mxPoint x="1448" y="3420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-179" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-169" style="startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="2N634zf8p_ipJI-IP2Pz-170" value="1 Quiz -&gt; n Result">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-212" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Category&#xa;PK category_id&#xa;name&#xa;description" vertex="1">
+          <mxGeometry height="126" width="167" x="871" y="3818" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-213" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Book&#xa;PK book_id&#xa;title&#xa;publish_year&#xa;stock_quantity&#xa;FK category_id" vertex="1">
+          <mxGeometry height="174" width="166" x="871" y="4266" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-214" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Author&#xa;PK author_id&#xa;name&#xa;biography" vertex="1">
+          <mxGeometry height="126" width="152" x="1210" y="4299" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-215" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="BookAuthor&#xa;PK book_id&#xa;PK author_id&#xa;FK book_id&#xa;FK author_id" vertex="1">
+          <mxGeometry height="150" width="152" x="1102" y="4526" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-216" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Member&#xa;PK member_id&#xa;full_name&#xa;date_of_birth&#xa;address&#xa;phone" vertex="1">
+          <mxGeometry height="174" width="164" x="209" y="4018" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-217" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Borrow&#xa;PK borrow_id&#xa;borrow_date&#xa;due_date&#xa;return_date&#xa;FK member_id" vertex="1">
+          <mxGeometry height="174" width="163" x="681" y="4018" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-218" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="BorrowDetail&#xa;PK borrow_detail_id&#xa;FK borrow_id&#xa;FK book_id&#xa;quantity&#xa;late_fee" vertex="1">
+          <mxGeometry height="174" width="205" x="660" y="4514" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-219" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="Phân loại" vertex="1">
+          <mxGeometry height="120" width="120" x="894" y="4045" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-221" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="Mượn" vertex="1">
+          <mxGeometry height="94" width="94" x="471" y="4058" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-222" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="Chi tiết" vertex="1">
+          <mxGeometry height="108" width="108" x="708" y="4299" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-223" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-212" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="2N634zf8p_ipJI-IP2Pz-219" value="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-224" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-219" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="2N634zf8p_ipJI-IP2Pz-213" value="N">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-227" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-213" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.9;entryX=0.21;entryY=0;rounded=0;" target="2N634zf8p_ipJI-IP2Pz-215" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1104" y="4477" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-228" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-214" style="curved=1;startArrow=none;endArrow=block;exitX=0.59;exitY=1;entryX=0.56;entryY=0;rounded=0;" target="2N634zf8p_ipJI-IP2Pz-215" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1193" y="4477" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-229" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-216" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="2N634zf8p_ipJI-IP2Pz-221" value="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-230" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-221" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="2N634zf8p_ipJI-IP2Pz-217" value="N">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-231" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-217" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.51;entryY=0;rounded=0;" target="2N634zf8p_ipJI-IP2Pz-222" value="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-232" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-222" style="curved=1;startArrow=none;endArrow=block;exitX=0.51;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="2N634zf8p_ipJI-IP2Pz-218" value="N">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-233" edge="1" parent="1" source="2N634zf8p_ipJI-IP2Pz-213" style="curved=1;startArrow=none;endArrow=block;exitX=0.1;exitY=1;entryX=0.83;entryY=0;rounded=0;" target="2N634zf8p_ipJI-IP2Pz-218" value="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="4477" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-234" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="n" vertex="1">
+          <mxGeometry height="30" width="60" x="1180" y="4500" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-235" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="n" vertex="1">
+          <mxGeometry height="30" width="60" x="1080" y="4500" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-236" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="1020" y="4400" as="geometry" />
+        </mxCell>
+        <mxCell id="2N634zf8p_ipJI-IP2Pz-237" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="1270" y="4420" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
